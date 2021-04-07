@@ -1,3 +1,4 @@
+cryptography>=3.2,<=3.3.2
 virtualenv
 flake8==3.3.0
 coverage==4.3.4
