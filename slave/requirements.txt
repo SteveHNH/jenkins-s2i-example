@@ -3,15 +3,10 @@ coverage==4.3.4
 pytest==3.0.6
 pyyaml>=3.10,<=3.12
 pytest-cov==2.4.0
-Sphinx
-nbsphinx==0.3.1
 pyOpenSSL
 importlib
-Jinja2==2.9.6
-sphinx_rtd_theme
 futures==3.0.5
 wheel
 six
-ipython<6
 virtualenv
 setuptools>=18.5

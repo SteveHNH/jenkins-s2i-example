@@ -19,7 +19,7 @@ RUN yum-config-manager --disable rhel* 1>/dev/null && \
     mkdir -p /var/lib/jenkins && \
     chown -R 1001:0 /var/lib/jenkins && \
     chmod -R g+w /var/lib/jenkins && \
-    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
+    curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py && \
     python get-pip.py && \
     pip install -r requirements.txt
 
