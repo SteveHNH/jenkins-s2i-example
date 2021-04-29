@@ -7,4 +7,3 @@ futures==3.0.5
 requests==2.13.0
 wheel
 importlib
-Jinja2==2.9.6
