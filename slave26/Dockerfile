@@ -16,7 +16,7 @@ RUN yum clean all && \
     export INSTALL_PKGS="nss_wrapper java-1.8.0-openjdk-headless \
         java-1.8.0-openjdk-devel nss_wrapper gettext tar git python curl gcc python-devel \
         unzip file python-pip libffi-devel libffi openssl-devel python-pyOpenSSL PyYAML pyOpenSSL \
-        python-virtualenv" && \
+        python-virtualenv python2-ndg_httpsclient" && \
     yum install -y --setopt=tsflags=nodocs install $INSTALL_PKGS && \
     yum clean all && \
     mkdir -p /var/lib/jenkins && \
